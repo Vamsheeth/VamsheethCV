@@ -1,0 +1,394 @@
+<html>
+
+<head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vamsheeth Vadlamudi</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="date_time.js"></script>
+	<style>
+    @import url(https://fonts.googleapis.com/css?family=Dancing+Script|Ubuntu|Roboto:400,700);
+https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css
+
+body{
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 70;
+  font-size: 2em;
+}
+.my-name{
+font-family: Copperplate,"Copperplate Gothic Light",fantasy;
+  font-weight: 400;
+  font-size: 55px;
+}
+hr {
+   width: 50%;
+}
+#designation{
+font-size: 50px;
+font-family: "Dancing Script", cursive;
+ font-weight: 600;
+}
+#github{
+  color: white;
+}
+#facebook{
+  color: white;
+}
+  #linkedin{
+ color: white;   
+  }
+
+#home{
+  background-image: url("./images/cvphoto.jpg");
+    background-attachment: fixed;
+  
+  background-size: cover;
+    background-position: center;
+
+  height: 100%;
+  margin-top: -20px;
+  padding-top: 400px;
+  padding-bottom: 350px;
+  color: #fff;
+  font-size: 3em;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.5),
+               0px 18px 23px rgba(0,0,0,0.1);
+}
+#sec-heading{
+ font-family: Copperplate,"Copperplate Gothic Light",fantasy;
+font-size: 45px;
+  font-weight:700;
+  margin-top: 55px;
+}
+
+#portfolio{
+  background-image: url("https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?crop=entropy&fit=crop&fm=jpg&h=975&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925");
+      background-attachment: fixed;
+
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  padding-bottom: 50px;
+  color: #fff;
+}
+.thumbnail{
+  position: relative;
+ 
+}
+
+  .thumbnail img{
+   min-height: 150px;
+   min-width: 200px;
+  
+     }
+#about{
+  background-image: url(
+"https://images.unsplash.com/photo-1414690165279-49ab0a9a7e66?crop=entropy&fit=crop&fm=jpg&h=975&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925");
+    background-attachment: fixed;
+
+  color: #fff;
+}
+#abouttext{
+  font-family:"Ubuntu", sans-serif;
+ font-size: 24px;
+  color:#fff
+}
+#my-pic{
+  height: 250px;
+  width: 250px;
+}
+#contact{
+  background-image: url("https://images.unsplash.com/photo-1429051883746-afd9d56fbdaf?crop=entropy&fit=crop&fm=jpg&h=975&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925");
+    background-attachment: fixed;
+  
+  background-size: cover;
+    background-position: center;
+
+  color: #fff;
+}
+#ter-heading{
+font-size: 35px;
+  font-weight:700;
+  margin-top: 55px;
+}
+
+    </style>
+</head>
+<body>
+  <!-- NAVBAR-->
+  <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse" aria-expanded="false">
+         <span class = "sr-only">Toggle navigation</span>
+         <span class = "icon-bar"></span>
+         <span class = "icon-bar"></span>
+         <span class = "icon-bar"></span>
+      </button>
+
+        <a class="navbar-brand" href="#home">
+          <span class="glyphicon glyphicon-Home"></span></a>
+      </div>
+      <div class="collapse navbar-collapse" id="example-navbar-collapse">
+        <ul class="nav navbar-nav">
+        </ul>
+        <ul class="nav navbar-nav navbar-right">                
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- /NAVBAR/ -->
+
+  <!--Main Content-->
+  <!--HOME-->
+  <div class="container-fluid">
+    <div id="home">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="text-center my-name"> Vamsheeth Vadlamudi</h1>
+          <hr/>
+
+          <p class="text-center" id="designation"> FrontEnd Developer </p>
+        </div>
+      </div>
+
+
+      <!--Social Network Buttons-->
+      <div id="snb" class="row">
+        <div class="col-lg-12 text-center">
+          <p>
+
+			<a href="" onclick='popup1()'>
+              <i class="fa fa-twitter-square fa-1x" id="linkedin">    </i></a>
+            
+			
+			<a href="" onclick='popup2()'>
+              <i class="fa fa-github-square fa-2x" id="github">
+        </i></a>
+           
+			<a  href="" onclick='popup3()'>
+              <i class="fa fa-facebook-square fa-0.5x" id="facebook">    </i></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/Social Network Buttons/-->
+  <!--/HOME/-->
+
+  <!--PROJECT-->
+  <div id="projects">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 id="sec-heading" class="text-center">Projects</h2>
+          <hr>
+        </div>
+      </div>
+    </div>
+  
+    <!--Placeholders-->
+    <!--1st row-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="./links/Design and Implementation of Mapping Robot Using Ultrasonic Sensor.pdf" target="_blank"> <img class="img-responsive" src="./images/Design and Implementation of Mapping Robot Using Ultrasonic Sensor.JPG" />
+            </a>
+            <div class="caption text-center">
+              <h3>Arduino Project</h3>
+              <p>Design and Implementation of Mapping Robot Using Ultrasonic Sensor</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="./links/Inventory Management System.pdf" target="_blank"> <img class="img-responsive" src="./images/Inventory Management System.png" />
+            </a>
+            <div class="caption text-center">
+              <h3>Inventory Management System</h3>
+              <p>Web based System Details Management</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="./links/Banking Database.pdf" target="_blank"> <img class="img-responsive" src="./images/Banking Database.jpg" />
+            </a>
+            <div class="caption text-center">
+              <h3>Banking Database</h3>
+              <p>Backend(Sql) of Banking Structure</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/1st row/-->
+    <!--2nd row-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="#" target="_blank"> <img class="img-responsive" src="https://images.unsplash.com/photo-1441986380878-c4248f5b8b5b?crop=entropy&fit=crop&fm=jpg&h=975&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925" />
+            </a>
+            <div class="caption text-center">
+              <h3>Placeholder</h3>
+              <p>Placeholder Description</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="#" target="_blank"> <img class="img-responsive" src="https://images.unsplash.com/photo-1428189923803-e9801d464d76?crop=entropy&fit=crop&fm=jpg&h=975&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925" />
+            </a>
+            <div class="caption text-center">
+              <h3>Placeholder</h3>
+              <p>Placeholder Description</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+
+            <a href="#" target="_blank"> <img class="img-responsive" src="https://images.unsplash.com/photo-1457369804613-52c61a468e7d?crop=entropy&fit=crop&fm=jpg&h=975&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925" />
+            </a>
+            <div class="caption text-center">
+              <h3>Placeholder</h3>
+              <p>Placeholder Description</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/2nd row/-->
+      <!--/Placeholders/-->
+
+
+    </div>
+  </div>
+  <!--/Projects/-->
+    <!--ABOUT-->
+    <div id="about" class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="text-center" id="sec-heading">About</h2>
+		  
+          <hr/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-4" id="my-pic">
+          <img class="img-responsive img-circle center-block" src="https://scontent.fnag1-1.fna.fbcdn.net/v/t31.0-8/11958247_10205268110481665_2502474595119893232_o.jpg?oh=20927c7a0fce8d83927d42ea683638e7&oe=58E3ACC0" />
+        </div>
+        <div class="col-lg-5 .col-lg-offset-1">
+          <blockquote>
+            <p id="abouttext">Hello,<br/> I'm Vamsheeth Vadlamudi; a self-taught web developer with extensive practical experience in building webpages using HTML/CSS. <br/> Besides coding, I love playing VolleyBall.</p>
+          </blockquote>
+        </div>
+
+      </div>
+    </div>
+    <!--/ABOUT/-->
+    <!--CONTACT-->
+    <div id="contact" class="container-fluid">
+      <h2 class="text-center" id="sec-heading"><font color="blue">CONTACT</font></h2>
+      <hr/>
+      <div class="row">
+        <div class="col-lg-5">
+
+          <h3 class="text-center" id="ter-heading"><font color="blue">Location</font></h3>
+          <p style="font-size: 1.5em;
+    color: #fff;
+    font-weight: bold; text-align: center;">
+	<font color="blue">Guntur,AndhraPradesh, India-522004</font>  
+          </p>
+          <p class="text-center">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d957.361743322178!2d80.42642548807308!3d16.300090286491763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTbCsDE4JzAwLjMiTiA4MMKwMjUnMzcuMSJF!5e0!3m2!1sen!2sin!4v1505013765686" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			 </p>
+        </div>
+
+        <div class="col-lg-7">
+          <h3 class="text-center" id="ter-heading"><font color="blue">Social</font></h3>
+          <p class="text-center">
+            <a href="#" target='_blank'>
+              <span class="fa-stack fa-3x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+            <a href="#" target='_blank'>
+              <span class="fa-stack fa-3x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-slack fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+            <a href="#" target='_blank'>
+              <span class="fa-stack fa-3x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-skype fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </p>
+          <h2 id="ter-heading" class="text-center"><font color="blue">Mail</font></h2>
+          <p class="text-center">
+
+            <a onclick='popup()'>
+              <span class="fa-stack fa-3x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </p>
+        </div>
+      </div>
+
+    
+
+      <footer class="text-center">
+        <p><font color="navy blue">Written and Coded By </font><a href="" onclick='popup4()'><i><strong>Vamsheeth Vadlamudi</strong></i></a>.</p>
+      </footer>
+
+    </div>
+	<!--/CONTACT/-->
+	<!--JavaScript-->
+	
+	<script>
+	function popup() {
+	  myWindow=window.open('https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=vadlamudi.vamsheeth@st.niituniversity.in&su=Regarding%20Digital%20Portfolio&shva=1','myWin','width=400,height=650')
+	}
+	
+	function popup1() {
+	  myWindow=window.open('https://www.linkedin.com/in/vamsheeth-v-a88906106/','myWin','width=400,height=650')
+	}
+	
+	function popup2() {
+	  myWindow=window.open('https://github.com/vamsheeth','myWin','width=400,height=650')
+	}
+	
+	function popup3() {
+	  myWindow=window.open('https://www.facebook.com/vamsheeth.vadlamudi.3','myWin','width=400,height=650')
+	}
+	
+	function popup4() {
+	  myWindow=window.open('./links/Vamsheeth CV.pdf','myWin','width=400,height=650')
+	}
+	
+	</script>
+	<!--/JavaScript/-->
+    
+  
+  <!--END-->
